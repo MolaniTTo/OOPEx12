@@ -53,11 +53,10 @@ namespace OOPEx12
 
         }
 
-        public override string ToString()
+        public virtual string GetInfo() //override
         {
             return $"Weight: {Weight}, Price: {Price}, Set: {Set}, Name: {Name}, Material: {Material}, Colour: {Colour}";
         }
-
 
     }
 
